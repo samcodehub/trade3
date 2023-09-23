@@ -149,7 +149,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 150vh;
+  
   object-fit: cover;
   z-index: -1;
 }
@@ -265,26 +265,18 @@ input:checked ~ article .back p {
 
 
 
-/***************************************** SECTION THREE 3 STRATEGIES**************************************/
-@keyframes moveBackground {
-  0%, 100% {
-    background-position: center 0;
-  }
-  50% {
-    background-position: center 50px;
-  }
+/***************************************** SECTION THREE 3 COLLECTIVE2**************************************/
+#c2 {
+  height: 110vh;
+  background:#000;
+  overflow: hidden; 
 }
-.section3 {
-    height: 110vh;
-    position: relative;
-    overflow: hidden; 
-  
-    animation: moveBackground 5s infinite alternate;
+/***************************************** SECTION THREE 3 COLLECTIVE2**************************************/
+/***************************************** SECTION THREE 4 STRATEGIES TOS**************************************/
+
+.section4{
+  height: 110vh;
 }
-
-
-
-
 
 #tos {
   max-width: 100%;
@@ -301,89 +293,224 @@ input:checked ~ article .back p {
     transform: rotate(360deg);
   }
 }
-
-
-/**************************************** SECTION FOUR 4 TESTIMONIAL****************************************/
+/***************************************** SECTION FOUR 4 STRATEGIES TOS**************************************/
+/***************************************** SECTION FIVE 5 STRATEGIES RANKING******************************/
 #ranking{
   height: 110vh;
  
 }
+/***************************************** SECTION FIVE 5 STRATEGIES RANKING*****************************/
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+#performance{
+  height: 110vh;
+  width: 100vw;
+}
+
+.perform img {
+  max-height: 50vh; /* Set the maximum height to 100% of the viewport height */
+  width: auto; /* Maintain aspect ratio */
+}
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+/***************************************** SECTION SEVEN 7 STRATEGIES SYSTEM TILES**************************/
+#systemtile{
+  height: 110vh;
+  width: 100vw;
+}
+
+.c2SystemTile{
+  width: 60%!important;
+  
+}
+/* System Name */
+#systemTile140372245 .c2SysName {
+  color: blue; /* Change this to your desired font color */
+}
+
+/* Trade Stats */
+#systemTile140372245 .c2tilestats .c2tilestat,
+#systemTile140372245 .c2tilestats .c2tilestatval {
+  color: rgb(236, 237, 236); /* Change this to your desired font color */
+}
+
+/* Warning Message */
+#systemTile140372245 .c2HypoWarn {
+  color: #faf4f4; /* Change this to your desired font color */
+}
+
+/* Subscribe Price */
+#systemTile140372245 .c2SubTxt .c2subPrice {
+  color: #fad104; /* Change this to your desired font color */
+}
+
+/* More Details Button */
+#systemTile140372245 .c2DetailsBtn img {
+  box-shadow: none; /* Remove the box shadow if desired */
+}
+/***************************************** SECTION SEVEN 7 STRATEGIES SYSTEM TILES**************************/
+/***************************************** SECTION EIGHT 8 STRATEGIES MONTHLY*************************/
+#monthli{
+  height: 120vh;
+  width: 100vw;
+}
+
+.c2tilesysunit{
+  max-width: 42vw!important;
+  max-height: 120vh!important;
+}
+
+.c2Results{
+  max-height: 120vh!important;
+}
+
+/* System Name */
+#c2Results140372245 .c2SysName {
+  color: blue; 
+}
+
+/* Trades Information */
+#c2Results140372245 p {
+  font-size: 13px; 
+  color: #f6f4f4; 
+}
+
+/* Warning Message */
+#c2Results140372245 .c2HypoWarn {
+  font-size: 12px; 
+  color: #fff6f6;
+}
+
+#monthly table{
+  margin-left: 0px!important;
+}
+
+/* Equity Table Headers */
+#c2Results140372245 .tblHor th {
+  color: #e3e0e0!important; 
+}
+
+/* Equity Table Data */
+#c2Results140372245 .tblHor td {
+  border: 1px solid #e0e0e0;
+  padding: 5px 2px!important;
+  font-size: 8px!important; 
+  font-family: tahoma, arial, sans-serif;
+}
+
+/* Equity Table Data (YTD) */
+#c2Results140372245 .tblHor .ytd {
+  color: rgb(21, 251, 21); 
+}
+/* Subscribe Text */
+#c2Results140372245 .c2subPrice:nth-child(7) {
+  color: #fad104!important; 
+}
 
 
-/********************************************** SECTION FIVE 5  FAQ *********************** */
-.section5 {
-    height: 110vh;
-    position: relative;
-   
+
+/* More Details Button */
+#c2Results140372245 .c2subBtnHolder img {
+  box-shadow: none; 
+ 
+}
+/***************************************** SECTION EIGHT 8 STRATEGIES MONTHLY*************************/
+/***************************************** SECTION NINE 9 FAQ**************************************/
+#FAQ {
+  height: 110vh;
+  position: relative;
+ 
 }
 
 .background-video3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #faq{
-    height:70vh;
+  height:70vh;
 }
 
 
 
 .accordion {
-    background-color: #eeeeee00;
-    color: #eaeaea;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+  background-color: #eeeeee00;
+  color: #eaeaea;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
 
-  }
-  
-  .active, .accordion:hover {
-    background-color: #cccccc00;
-  }
-  
-  .accordion:after {
-    content: '\002B';
-    color: #f2f2f2;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: rgba(255, 255, 255, 0);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
- 
-  }
+}
 
+.active, .accordion:hover {
+  background-color: #cccccc00;
+}
 
+.accordion:after {
+  content: '\002B';
+  color: #f2f2f2;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: rgba(255, 255, 255, 0);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+}
 
 
+/***************************************** SECTION NINE 9 FAQ**************************************/
+/***************************************** SECTION TEN 10 NEWS FEED**************************************/
 
+#feedS{
+  height: 110vh;
+}
 
+/***************************************** SECTION TEN 10 NEWS FEED**************************************/
+/***************************************** SECTION ELEVEN 11 NEWSLETTER**************************************/
+#newsletter{
+  height: 100vh;
+}
 
+.newsletter{
+  width: 70vw;
+  height: 60vh;
+  display:flex;
+  align-items: center;
+  background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+  border-radius: 50px;
+}
 
-
-
-
-
-
+.alert {
+  display: inline-block;
+  font-size: 22px;
+  color: rgb(128, 212, 131);
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+/***************************************** SECTION ELEVEN 11 NEWSLETTER**************************************/
+/***************************************** SECTION TWELVE 12 CONTACT US**************************************/
+#Contact{
+  height: 100vh;
+}
+/***************************************** SECTION TWELVE 12 CONTACT US**************************************/
 
 /************************************ WHATSAPP ICON *************************************************/
 .whatsapp-icon {
@@ -475,159 +602,7 @@ input:checked ~ article .back p {
     }
   }
 
-/* SECTION SEVEN 7 */
-.section6{
-    height: 70vh;
-    background: #0c0c0c;
-}
-/* SECTION EIGHT 8 */
-.newsletter{
-  width: 70vw;
-  height: 60vh;
-  display:flex;
-  align-items: center;
-  background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
-  border-radius: 50px;
-}
-
-/* SECTION NINE 9 */
-
-#c2 {
-  height: 110vh;
-  background:#000;
-  overflow: hidden; 
-}
-
-.alert {
-  display: inline-block;
-  font-size: 22px;
-  color: rgb(128, 212, 131);
-  margin: 0 auto;
-  margin-bottom: 5px;
-}
-
-
-
-
-
-
-
-
-#performance{
-  height: 110vh;
-  width: 100vw;
-}
-
-.perform img {
-  max-height: 50vh; /* Set the maximum height to 100% of the viewport height */
-  width: auto; /* Maintain aspect ratio */
-}
-
-/************************************************* System Tile ******************************************8*/
-#systemtile{
-  height: 110vh;
-  width: 100vw;
-}
-
-.c2SystemTile{
-  width: 60%!important;
-  
-}
-/* System Name */
-#systemTile140372245 .c2SysName {
-  color: blue; /* Change this to your desired font color */
-}
-
-/* Trade Stats */
-#systemTile140372245 .c2tilestats .c2tilestat,
-#systemTile140372245 .c2tilestats .c2tilestatval {
-  color: rgb(236, 237, 236); /* Change this to your desired font color */
-}
-
-/* Warning Message */
-#systemTile140372245 .c2HypoWarn {
-  color: #faf4f4; /* Change this to your desired font color */
-}
-
-/* Subscribe Price */
-#systemTile140372245 .c2SubTxt .c2subPrice {
-  color: #fad104; /* Change this to your desired font color */
-}
-
-/* More Details Button */
-#systemTile140372245 .c2DetailsBtn img {
-  box-shadow: none; /* Remove the box shadow if desired */
-}
-
-
-/************************************************* System Tile ******************************************8*/
-
-
-/************************************************* Monthly Return ******************************************8*/
-#monthli{
-  height: 120vh;
-  width: 100vw;
-}
-
-.c2tilesysunit{
-  max-width: 42vw!important;
-  max-height: 120vh!important;
-}
-
-.c2Results{
-  max-height: 120vh!important;
-}
-
-/* System Name */
-#c2Results140372245 .c2SysName {
-  color: blue; 
-}
-
-/* Trades Information */
-#c2Results140372245 p {
-  font-size: 13px; 
-  color: #f6f4f4; 
-}
-
-/* Warning Message */
-#c2Results140372245 .c2HypoWarn {
-  font-size: 12px; 
-  color: #fff6f6;
-}
-
-#monthly table{
-  margin-left: 0px!important;
-}
-
-/* Equity Table Headers */
-#c2Results140372245 .tblHor th {
-  color: #e3e0e0!important; 
-}
-
-/* Equity Table Data */
-#c2Results140372245 .tblHor td {
-  border: 1px solid #e0e0e0;
-  padding: 5px 2px!important;
-  font-size: 8px!important; 
-  font-family: tahoma, arial, sans-serif;
-}
-
-/* Equity Table Data (YTD) */
-#c2Results140372245 .tblHor .ytd {
-  color: rgb(21, 251, 21); 
-}
-/* Subscribe Text */
-#c2Results140372245 .c2subPrice:nth-child(7) {
-  color: #fad104!important; 
-}
-
-
-
-/* More Details Button */
-#c2Results140372245 .c2subBtnHolder img {
-  box-shadow: none; 
- 
-}
+/************************************ WHATSAPP ICON *************************************************/
 
 
 
@@ -645,14 +620,22 @@ input:checked ~ article .back p {
 
 
 
-#feed{
-  height: 110vh;
-}
 
 
-#newsletter{
-  height: 100vh;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
